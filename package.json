@@ -1,0 +1,19 @@
+{
+  "name": "mp3share",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+	"pack": "electron-packager . gdsharedlc --overwrite --asar --platform=win32 --arch=ia32 --prune=true --out=release-builds"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.1.2",
+    "electron-packager": "^15.0.0"
+  },
+  "dependencies": {
+    "pako": "^1.0.11"
+  }
+}
