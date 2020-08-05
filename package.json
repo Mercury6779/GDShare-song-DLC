@@ -4,14 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "electron .",
 	"pack": "electron-packager . gdsharedlc --overwrite --asar --platform=win32 --arch=ia32 --prune=true --out=release-builds"
+=======
+    "start": "electron ."
+>>>>>>> 089becd33aee30b4d907e0e26f27745da6d4b00f
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+<<<<<<< HEAD
     "electron": "^9.1.2",
     "electron-packager": "^15.0.0"
+=======
+    "electron": "^9.1.2"
+>>>>>>> 089becd33aee30b4d907e0e26f27745da6d4b00f
   },
   "dependencies": {
     "pako": "^1.0.11"
